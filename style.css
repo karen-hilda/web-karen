@@ -2,7 +2,6 @@ body {
     background: white;
     margin: 0;
     padding: 0;
-
 }
 
 .navbar {
@@ -14,12 +13,83 @@ body {
 }
 
 .section1 {
-    background-color: blue;
-    min-height: 50vh;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.child1 {
+    background-color: violet;
+    width: 45%;
+    height: 300px;
+}
+
+.photo {
+    background-color: brown;
+    height: 30%;
+    width: 100%;
+}
+
+.hello {
+    background-color:thistle;
+    height: 70%;
+}
+
+.child2 {
+    background-color: bisque;
+    width: 45%;
+    height: 300px;
+}
+
+.title {
+    background-color: aqua;
+    height: 50%;
+}
+
+.subtitle {
+    background-color: black;
+    height: 25%;
+}
+
+.actions {
+    background-color: aquamarine;
+    height: 25%;
 }
 
 .section2 {
     background-color: yellowgreen;
-    min-height: 50vh;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.card {
+    height: 300px;
+    width: 45%;
+}
+
+.service {
+    background-color: red;
+}
+
+.item {
+    background-color: blue;
+    width: 713px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.symbol {
+    background-color: antiquewhite;
+    width: 10%;
+    height: 100%;
+}
+
+.box {
+    background-color: blueviolet;
+    width: 713px;
+    height: 100%;
 }
